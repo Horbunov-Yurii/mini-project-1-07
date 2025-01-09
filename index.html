@@ -11,7 +11,8 @@
     <title>Hydra</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+    <div class="container">
         <ul class="header__items">
             <li class="header__item">
                 <svg class="header__svg">
@@ -24,6 +25,34 @@
                 </svg>
             </li>
         </ul>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item__nav">
+                    <p class="header__text">ABOUT</p>
+                </li> 
+                <li class="header__item__nav">
+                    <p class="header__text">SERVICES</p>
+                </li> 
+                <li class="header__item__nav">
+                    <p class="header__text">TECHNOLOGIES</p>
+                </li> 
+                <li class="header__item__nav">
+                    <p class="header__text">HOW TO</p>
+                </li> 
+            </ul>
+        </nav>
+        <ul class="header__buttons">
+            <li class="header__button__item">
+                <button class="header__button">CONTACT US</button></li>
+            <li class="header__button__item">
+                <button class="header__button">JOIN HYDRA</button></li>
+        </ul>
+    <button class="header__burger">
+        <svg class="header__svg__burger">
+            <use href="./img/symbol-defs.svg#icon-hamburger-button"></use>
+        </svg>
+    </button>
+    </div>
     </header>
 </body>
 </html>
