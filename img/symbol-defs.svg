@@ -24,5 +24,11 @@
 <path d="M2.286 27.429h36.044c1.262 0 2.286 1.023 2.286 2.286v0c0 1.262-1.023 2.286-2.286 2.286h-36.044c-1.262 0-2.286-1.023-2.286-2.286v0c0-1.262 1.023-2.286 2.286-2.286z"></path>
 <path d="M13.363 13.714h24.967c1.262 0 2.286 1.023 2.286 2.286v0c0 1.262-1.023 2.286-2.286 2.286h-24.967c-1.262 0-2.286-1.023-2.286-2.286v0c0-1.262 1.023-2.286 2.286-2.286z"></path>
 </symbol>
+<symbol id="icon-circle-left" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M18.667 22.667l-6.667-6.667 6.667-6.667M4 16c0 6.627 5.373 12 12 12s12-5.373 12-12c0-6.627-5.373-12-12-12s-12 5.373-12 12z"></path>
+</symbol>
+<symbol id="icon-circle-right" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M13.333 22.667l6.667-6.667-6.667-6.667M28 16c0 6.627-5.373 12-12 12s-12-5.373-12-12c0-6.627 5.373-12 12-12s12 5.373 12 12z"></path>
+</symbol>
 </defs>
 </svg>
