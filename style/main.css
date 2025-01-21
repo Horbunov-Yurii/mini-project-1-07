@@ -640,4 +640,101 @@ body {
   .built__button {
     width: 154px;
   }
+}
+
+.technologies {
+  text-align: center;
+}
+.technologies__preview {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(0deg, rgba(48, 44, 66, 0.79) 0%, rgba(48, 44, 66, 0.79) 100%), url(../img/technologies.png) lightgray 50%/cover no-repeat;
+  border-radius: 60px;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+@media screen and (min-width: 1282px) {
+  .technologies__preview {
+    border-radius: 160px;
+  }
+}
+@media screen and (min-width: 1282px) {
+  .technologies__preview {
+    padding-top: 108px;
+    padding-bottom: 150px;
+  }
+}
+.technologies__title {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+@media screen and (min-width: 1282px) {
+  .technologies__title {
+    font-size: 36px;
+    margin-bottom: 11px;
+  }
+}
+.technologies__subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+@media screen and (min-width: 1282px) {
+  .technologies__subtitle {
+    font-size: 36px;
+  }
+}
+.technologies__btn {
+  display: none;
+}
+@media screen and (min-width: 1282px) {
+  .technologies__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translateX(-50%);
+    border: 10px solid rgb(14, 14, 14);
+    background-color: rgb(67, 61, 96);
+  }
+}
+.technologies__svg {
+  z-index: 1;
+  fill: black;
+  width: 60px;
+  height: 60px;
+}
+.technologies__list {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1282px) {
+  .technologies__list {
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+}
+.technologies__item:not(:last-child) {
+  display: none;
+}
+@media screen and (min-width: 1282px) {
+  .technologies__item:not(:last-child) {
+    display: flex;
+  }
+}
+.technologies__img {
+  width: 250px;
+  height: 250px;
 }/*# sourceMappingURL=main.css.map */
