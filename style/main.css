@@ -354,7 +354,7 @@ body {
   }
 }
 .about__title {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 26px;
   font-weight: 700;
@@ -369,7 +369,7 @@ body {
   }
 }
 .about__subtitle {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 26px;
   font-weight: 300;
@@ -396,7 +396,7 @@ body {
 }
 @media screen and (min-width: 1282px) {
   .about__text {
-    color: #FFF;
+    color: #fff;
     display: block;
     font-size: 16px;
     font-weight: 400;
@@ -420,7 +420,7 @@ body {
 }
 .about__img {
   border-radius: 140px 60px;
-  background: #A3A3A3;
+  background: #a3a3a3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 336.79px;
   height: 358px;
@@ -442,7 +442,7 @@ body {
 @media screen and (min-width: 1282px) {
   .about__caption {
     display: block;
-    color: #FFF;
+    color: #fff;
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
@@ -463,7 +463,7 @@ body {
   }
 }
 .about__desc {
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
@@ -486,7 +486,7 @@ body {
   line-height: normal;
   padding: 19px 63px;
   border-radius: 40px;
-  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
 }
 @media screen and (min-width: 1282px) {
   .about__btn {
@@ -737,4 +737,71 @@ body {
 .technologies__img {
   width: 250px;
   height: 250px;
+}
+
+.numbers {
+  padding: 123px 0 112px 0;
+}
+
+.build {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1282px) {
+  .build {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.build__title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 71px;
+}
+@media screen and (min-width: 1282px) {
+  .build__title {
+    text-align: start;
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+}
+.build__subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+@media screen and (min-width: 1282px) {
+  .build__subtitle {
+    text-align: start;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+  }
+  .build__subtitle::after {
+    content: "";
+    display: inline-flex;
+    width: 228px;
+    height: 100px;
+    background-image: url(../img/line.png);
+  }
+}
+.build__desc {
+  display: none;
+}
+@media screen and (min-width: 1282px) {
+  .build__desc {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    width: 652px;
+  }
 }/*# sourceMappingURL=main.css.map */
