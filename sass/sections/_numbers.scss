@@ -1,5 +1,41 @@
-.numbers{
-    padding: 123px 0 112px 0;
+.numbers {
+  padding: 123px 0 112px 0;
+  @media screen and (min-width: 1282px) {
+    background: url(../img/lines.png);
+    background-repeat: no-repeat;
+    background-position: 0 360px;
+  }
+
+  &__item:not(:first-child) {
+    display: none;
+    @media screen and (min-width: 1282px) {
+      display: block;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 187px;
+    position: relative;
+    &::before {
+      @media screen and (min-width: 1282px) {
+        content: "";
+        background-image: url(../img/arrow-small-right.png);
+        display: inline-flex;
+        width: 67px;
+        height: 67px;
+        position: absolute;
+        top: -20px;
+        left: -60px;
+      }
+    }
+  }
 }
 
 .build {
@@ -8,9 +44,9 @@
 
   @media screen and (min-width: 1282px) {
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
   }
-  
+
   &__title {
     color: #fff;
     font-family: Montserrat;
@@ -18,11 +54,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 71px;
     @media screen and (min-width: 1282px) {
       text-align: start;
       font-size: 36px;
-      margin-bottom: 15px;
     }
   }
   &__subtitle {
@@ -54,9 +88,39 @@
       display: block;
       font-size: 16px;
       font-weight: 400;
-      line-height: normal;
+      line-height: 2;
       width: 652px;
     }
   }
 }
-
+.numbers__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  @media screen and (min-width: 1282px) {
+    justify-content: space-around;
+    margin-top: 119px;
+  }
+}
+.step {
+  &__number {
+    background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+    width: 159px;
+    height: 159px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343045;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 50%;
+    outline: 19px solid rgba(13, 13, 13, 0.32);
+    margin-bottom: 37px;
+    @media screen and (min-width: 1282px) {
+      margin-bottom: 25px;
+    }
+  }
+}
