@@ -16,6 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/main.min.css" />
     <title>Hydra</title>
   </head>
@@ -200,7 +205,7 @@
           </div>
 
           <ul class="built__list">
-            <li class="built__item">
+            <li class="built__item" data-aos="flip-left" data-aos-duration="2000">
               <div class="built__shadow">
                 <svg
                   class="built__svg"
@@ -231,7 +236,7 @@
               </p>
               <button class="built__button" type="button">TRY IT NOW</button>
             </li>
-            <li class="built__item">
+            <li class="built__item" data-aos="flip-up" data-aos-duration="2000">
               <div class="built__shadow">
                 <svg
                   class="built__svg"
@@ -262,7 +267,7 @@
               </p>
               <button class="built__button" type="button">TRY IT NOW</button>
             </li>
-            <li class="built__item">
+            <li class="built__item" data-aos="flip-up" data-aos-duration="2000">
               <div class="built__shadow">
                 <svg
                   class="built__svg"
@@ -293,7 +298,7 @@
               </p>
               <button class="built__button" type="button">TRY IT NOW</button>
             </li>
-            <li class="built__item">
+            <li class="built__item" data-aos="flip-right" data-aos-duration="2000">
               <div class="built__shadow">
                 <svg
                   class="built__svg"
@@ -421,5 +426,9 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
